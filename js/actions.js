@@ -17,6 +17,7 @@ var fn = {
 		});
 	},
 	ready: function(){
+
 		document.addEventListener("deviceready", geo.getPosition, false);
 		//document.addEventListener("deviceready", fn.barcodereader, false);
 	},
