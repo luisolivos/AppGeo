@@ -2,6 +2,7 @@ var geo = {
 	lat: null,
 	lng: null,
 	getPosition: function(){
+
 		navigator.geolocation.getCurrentPosition(geo.success,geo.error);
 	},
 	error: function(err){

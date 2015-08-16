@@ -23,4 +23,4 @@ var fn = {
 		//document.addEventListener("deviceready", fn.barcodereader, false);
 	}
 };
-$(fn.ready);
+$(fn.init);
